@@ -1,0 +1,31 @@
+Trabalho PROG2
+
+Pedro Stahel de Azevedo GRR20252084
+
+Lista de arquivos:
+gbv.c
+gbv.h
+main.c
+util.c
+util.h
+MakeFile
+leiame.txt
+
+O trabalho foi muito trabalhoso e requiriu bastante tempo para ser feito.
+Entretanto, sinto que consegui desempenhar bem e fazer o que foi solicitado.
+Sobre as principais dificuldades:
+- Tive um pouco de dificuldade para entender o que era o buffer e como utilizá-lo.
+Contudo, a partir do momento que o compreendi, o código ficou bem mais tranquilo de ser feito.
+- Tive dificuldade no remove e no view por conta da falta do nome do arquivo gbv que seria utilizado.
+Por isso, como uma solução viável eu achei a de fixar o nome da biblioteca GBV, o que em si poderia causar alguns problemas,
+mas foi a solução que eu consegui encontrar.
+- Me bati um pouco no ordena, pra entender a parte de passar a função como parâmetro do qsort e de como inserir a biblioteca ordenada
+no arquivo antigo do gbv. Contudo, acho que fiz um bom trabalho nessa parte.
+
+Sobre os bugs:
+- Pelos meus testes não foram encontrados bugs, mas vale ressaltar que eu fiz testes bem básicos que tinham grandes chances de não gerar problemas.
+- Inclusive, não soube muito bem utilizar o valgrind nesse caso que é necessário fazer comandos e, por isso, pode ser que haja vazamento de memória.
+
+Sobre a execução:
+- Agora o próprio programa cria a biblioteca caso ela seja inexistente, então não haverão problemas quanto a isso.
+- A biblioteca criada precisa se chamar biblioteca.gbv
